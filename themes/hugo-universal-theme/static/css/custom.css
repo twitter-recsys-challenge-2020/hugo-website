@@ -1,0 +1,55 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 22px 15px;
+}
+
+#copyright {
+    padding: 0px
+}
+
+.homepage_text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+
+}
+
+.text-left{
+  margin:0 0 15px 0
+}
+
+.no-pd{
+    padding: 0px
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:50px;
+}
+table, th, td {
+    border: 0px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 50px;
+    padding-rigjt: 50px;
+}
+th {
+  cursor: pointer;
+  color: #6aae7a
+}
+
+th:hover{
+  text-decoration: underline
+}

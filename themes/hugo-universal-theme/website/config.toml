@@ -1,0 +1,76 @@
+baseurl = "https://twitter-recsys-challenge-2020.github.io/"
+title = "RecSys Challenge 2020"
+theme = "hugo-universal-theme"
+themesDir = "../.."
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+# Define the number of posts per page
+paginate = 1
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    identifier="Challenge"
+    name = "Challenge"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier="Leaderboard"
+    name = "Leaderboard"
+    url  = "/leaderboard/index.html"
+    weight = 2
+
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devows", "hugo", "go"]
+    mainSections = ["blog"]
+    defaultDescription = "Site template made by devcows using hugo"    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
+
+    # Social media
+    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    twitter_site = "" # the Twitter handle of your site (without the '@')
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = ""
+    
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = ""
+    contact_form_ajax = false
+
+    #about_us = ""
+    copyright = ""
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+    latitude = ""
+    longitude = ""
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
