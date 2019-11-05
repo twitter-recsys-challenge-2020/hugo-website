@@ -1,4 +1,4 @@
-baseurl = "https://twitter-recsys-challenge-2020.github.io/"
+baseurl = "https://twitter-recsys-challenge-2020.github.io"
 title = "RecSys Challenge 2020"
 theme = "hugo-universal-theme"
 themesDir = "../.."
@@ -25,15 +25,15 @@ paginate = 1
 [[menu.main]]
     identifier="Leaderboard"
     name = "Leaderboard"
-    url  = "/leaderboard/index.html"
+    url  = "/leaderboard"
     weight = 2
 
 
 [params]
     viewMorePostLink = "/blog/"
     author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    mainSections = ["blog"]
+    defaultKeywords = ["recsys", "twitter", "challenge"]
+    mainSections = ["leaderboard"]
     defaultDescription = "Site template made by devcows using hugo"    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
 

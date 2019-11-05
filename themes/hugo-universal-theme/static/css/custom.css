@@ -18,7 +18,17 @@
     padding: 0px
 }
 
-.homepage_text {
+.homepage h4{
+    display: inline-block;
+    border-bottom: solid 5px #38a7bb;
+    line-height: 1.1;
+    margin:0 0 15px 0;
+    padding-top: 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.homepage p {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.4;
@@ -26,7 +36,6 @@
 }
 
 .text-left{
-  margin:0 0 15px 0
 }
 
 .no-pd{
@@ -52,4 +61,12 @@ th {
 
 th:hover{
   text-decoration: underline
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.42857143;
+  color: #555555;
 }

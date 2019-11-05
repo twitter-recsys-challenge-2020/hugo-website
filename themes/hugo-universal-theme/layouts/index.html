@@ -14,10 +14,22 @@
           {{ partial "nav.html" . }}
 
         </header>
-        {{ partial "homepage.html" .}}
-
+        <section class="bar background-pentagon no-mb no-pd">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-left">
+                            <h2>Challenge on Tweet Engagement Prediction</h2>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="no-mb">
+          <div class="container homepage">
+            {{ .Content }}
+          </div>
+        </section>i
         {{ partial "footer.html" . }}
-
     </div>
     <!-- /#all -->
 
