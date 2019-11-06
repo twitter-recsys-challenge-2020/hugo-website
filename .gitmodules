@@ -1,4 +1,4 @@
 [submodule "themes/hugo-universal-theme/website/public"]
 	path = themes/hugo-universal-theme/website/public
-	url = git@github.com:twitter-recsys-challenge-2020/twitter-recsys-challenge-2020.github.io
+	url = https://github.com/twitter-recsys-challenge-2020/twitter-recsys-challenge-2020.github.io.git
 	branch = master
